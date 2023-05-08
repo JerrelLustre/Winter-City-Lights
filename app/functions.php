@@ -3,7 +3,7 @@
 // User-Defined Functions
 // ----------
 
-//For use with partials
+
 function get_public_url($path = "") {
     if($path[0] != '/') {
         $path = '/' . $path;
@@ -11,7 +11,7 @@ function get_public_url($path = "") {
     return WWW_ROOT . '/public' . $path;
 }
 
-//For use with data
+
 function get_path($path = "") {
     if ($path != "") {
         if($path[0] != '/') {
