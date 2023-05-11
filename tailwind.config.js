@@ -11,22 +11,22 @@ module.exports = {
         'sans': ['Mulish'],
       },
       colors: {
-        'navy': '#103A54',
-        'navy-light': '#225D81',
-        'gold':'#E8CFA3',
-        'gold-light': '#F7EBDA',
-        'white':'#f2f2f2'
+        'navy': 'hsl(202.9, 68%, 19.6%)',
+        'navy-light': 'hsl(202.7, 58.3%, 32%)',
+        'gold':'hsl(38.3, 60%, 77.5%)',
+        'gold-light': 'hsl(35.2, 64.4%, 91.2%)',
+        'white':'hsl(0, 0%, 94.9%)'
       },
       screens:{
         'sm':'520px',
       },
       dropShadow: {
         'txt': '0px 5px 4px rgba(0, 0, 0, 0.8)',
-        'blue':'0px 20px 30px -10px #26394D;',
+        'blue':'0px 20px 30px -10px hsl(210.8, 33.9%, 22.5%);',
       },
       boxShadow:{
         'simple':'0px 10px 4px -2px rgba(0, 0, 0, 0.25);',
-        'blue':'0px 20px 30px -10px #26394D;',
+        'blue':'0px 20px 30px -10px hsl(210.8, 33.9%, 22.5%);',
       },
       backgroundImage: {
         'ticket': "url('/public/img/ticket-bg-wintercitylights.svg')",
