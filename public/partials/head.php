@@ -6,6 +6,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/flickity.min.css">
+    <link rel="stylesheet" href="css/flickity-fade.css">
     <link rel="stylesheet" href="css/output.css">
+    
+    <style>
+        *{
+            outline:1px solid red;
+            
+        }
+
+
+    </style>
 </head>
 
