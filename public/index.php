@@ -4,11 +4,11 @@
 <?php
 require_once "../app/init.php";
 $title = "Winter City Lights - Vancouver Winter Festival Homepage";
-include get_path("public/partials/head.php");
+include get_path("public/partials/global/head.php");
 ?>
 
 <body class="bg-gold-light">
-    <?php include get_path("public/partials/header.php"); ?>
+    <?php include get_path("public/partials/global/header.php"); ?>
         <main>
             <section class="bg-[url('../img/homepageBanner-winter-city-lights.jpg')] mb-[12.1875rem] bg-cover bg-center bg-no-repeat border-4 box-border border-navy flex flex-col items-center justify-center">
                 <div class="text-center text-white pt-20 md:pt-[8.25rem] pb-[9.5rem] sm:pb-10">
@@ -62,8 +62,9 @@ include get_path("public/partials/head.php");
 
 
         </main>
-    <?php include get_path("public/partials/footer.php"); ?>
-    <script src='https://unpkg.com/flickity@2.2/dist/flickity.pkgd.js'></script>
-    <script src='https://unpkg.com/flickity-fade@1/flickity-fade.js'></script>
+    <?php include get_path("public/partials/global/footer.php"); ?>
+    <script src="js/flickity.js"></script>
+    <script src="js/flickity-fade.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
