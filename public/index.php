@@ -26,16 +26,16 @@ include get_path("public/partials/global/head.php");
                 </div>
             </section>
             
-            <section class="carousel h-[37.5rem]" data-flickity='{ "wrapAround": true, "draggable": false, "fade": true  }'>
+            <section class="carousel h-[37.5rem]" data-flickity='{ "wrapAround": true, "draggable": false, "fade": true , "lazyLoad": true  }'>
                 <!-- All cells are set to max width. In mobile, elemented are formatted normally. At XL (1280px) The image is taken out of the flow with absolute, and its grand-parent is made relative while its direct parent is turned back into static. This allows us to position it to the right, while keeping the content on the left -->
                 
                 <!-- Foreach() is a "for" loop that runs code once for every value in an array while specifying the values as as variable -->
                 <!-- This foreach() loop runs the carousel cell template for every value in the $cells array.For each loop, value is specified with $cellInfo -->
                 <?php foreach ($cells as $cellInfo): ?>
                     <?php include("partials/carousel-cell.php"); ?>
-                    <!-- endforeach ends the foreach() loop -->
+                    
                 <?php endforeach; ?>
-
+                    <!-- endforeach ends the foreach() loop -->
             </section>
 
             

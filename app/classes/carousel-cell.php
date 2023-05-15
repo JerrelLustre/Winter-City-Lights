@@ -7,6 +7,7 @@ class cell{
     public $copy;
     public $image;
     public $imageAlt;
+    public $imagePlaceholder;
 
     public function __construct($props = [])
     {
@@ -20,6 +21,7 @@ class cell{
 
         $this->image = $props["image"] ?? "";
         $this->imageAlt = $props["imageAlt"] ?? "";
+        $this->imagePlaceholder = $props["placeholder"] ?? "";
     }
 }
 
