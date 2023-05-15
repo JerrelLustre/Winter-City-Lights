@@ -1,5 +1,5 @@
 <div class="carousel-cell w-screen ">
-    <div class="xl:relative mx-auto max-w-[98.75rem] xl:max-h-full xl:h-[600px] ">
+    <div class="xl:relative mx-auto max-w-[98.75rem] xl:max-h-full xl:h-[37.5rem] ">
         <h2
             class="px-5 xl:mx-10 py-[0.625rem] w-fit mx-auto border-gold bg-gold-light border-8 font-serif text-navy rounded-3xl text-3xl text-center shadow-blue ">
             <?php echo h($cellInfo->heading); ?></h2>
@@ -15,7 +15,7 @@
             <h3
                 class=" max-w-[21.875rem]  sm:max-w-[28rem] xl:w-[30rem] xl:max-w-none px-5 upppercase font-serif text-2xl mb-14 mx-auto">
                 <?php echo h($cellInfo->subHeading); ?></h3>
-            <p class="max-w-[21.875rem] px-5 font-sans sm:max-w-[28rem] xl:w-[30rem] xl:max-h-60 xl:max-w-none text-xl mx-auto overflow-y-auto">
+            <p class="max-w-[23.75rem] px-5 font-sans sm:max-w-[28rem] xl:w-[30rem] xl:max-h-60 xl:max-w-none text-xl mx-auto overflow-y-auto">
                 <?php echo h($cellInfo->copy); ?>
         </p>
         </div>
