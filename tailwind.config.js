@@ -2,7 +2,8 @@
 module.exports = {
   content: [
     "./public/*.php",
-    "./public/partials/*.php"
+    "./public/partials/*.php",
+    "./public/partials/global/*.php"
 ],
   theme: {
     extend: {

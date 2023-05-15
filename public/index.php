@@ -26,7 +26,7 @@ include get_path("public/partials/global/head.php");
                 </div>
             </section>
             
-            <section class="carousel h-[37.5rem]" data-flickity='{ "wrapAround": true, "draggable": false, "fade": true , "lazyLoad": true  }'>
+            <section class="carousel h-[37.5rem] mb-52" data-flickity='{ "wrapAround": true, "draggable": false, "fade": true , "lazyLoad": true  }'>
                 <!-- All cells are set to max width. In mobile, elemented are formatted normally. At XL (1280px) The image is taken out of the flow with absolute, and its grand-parent is made relative while its direct parent is turned back into static. This allows us to position it to the right, while keeping the content on the left -->
                 
                 <!-- Foreach() is a "for" loop that runs code once for every value in an array while specifying the values as as variable -->
@@ -37,7 +37,16 @@ include get_path("public/partials/global/head.php");
                 <?php endforeach; ?>
                     <!-- endforeach ends the foreach() loop -->
             </section>
-
+            <section class="max-w-[98.75rem] mx-auto">
+            <h2 class="px-5 xl:mx-10 py-[0.625rem] w-fit mx-auto border-gold bg-gold-light border-8 font-serif text-navy rounded-3xl text-3xl text-center shadow-blue ">Past Festival Moments</h2>
+            <div id="imageGallery">
+                    <div class="grid-item"><img class="w-full" src="img/familyCelebration2019-gallery-img-winter-city-lights.jpg" alt=""></div>
+                    <div class="grid-item"><img class="w-full" src="img/iceSculptures2019-gallery-img-winter-city-lights.jpg" alt=""></div>
+                    <div class="grid-item"><img class="w-full" src="img/winterBazaar2018-gallery-img-winter-city-lights.jpg" alt=""></div>
+                    <div class="grid-item"><img class="w-full" src="img/winterBazaar2022-gallery-img-winter-city-lights.jpg" alt=""></div>
+                    <div class="grid-item"><img class="w-full" src="img/lightSculptures2018-gallery-img-winter-city-lights.jpg" alt=""></div>
+            </div>
+            </section>
             
 
 
@@ -46,6 +55,24 @@ include get_path("public/partials/global/head.php");
     <?php include get_path("public/partials/global/footer.php"); ?>
     <script src="js/flickity.js"></script>
     <script src="js/flickity-fade.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+        let imageGallery = document.querySelector('#imageGallery');
+        var msnry = new Masonry( imageGallery,{
+            itemSelector:'.grid-item',
+            columnWidth:400,
+            transitionDuration: 0,
+            fitWidth: true
+            // Sets the width of the container to fit the available number of columns, based on the size of the container's parent
+        })
+
+        imagesLoaded(imageGallery).on( 'progress', function() {
+        
+        // layout Masonry after each image loads
+        msnry.layout();
+        });
+    </script>
 </body>
 </html>

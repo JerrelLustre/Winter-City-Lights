@@ -1,5 +1,3 @@
-
-
 <div class="carousel-cell w-screen ">
     <div class="xl:relative mx-auto max-w-[98.75rem] xl:max-h-full xl:h-[600px] ">
         <h2
@@ -22,4 +20,4 @@
         </p>
         </div>
     </div>
-</div>`
+</div>

@@ -46,4 +46,4 @@ $merchandise = new cell([
 
 
 // All objects are added into an array to be implemented into a loop later on
-$cells = [$snowglobe,$multicultral,$events,$merchandise];
+$cells = [$snowglobe,$merchandise,$events,$multicultral];
