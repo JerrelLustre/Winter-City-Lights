@@ -4,7 +4,7 @@ module.exports = {
   content: [
     "./public/*.php",
     "./public/partials/*.php",
-    "./public/partials/global/*.php"
+    "./public/partials/global/*.php",
 ],
   theme: {
     extend: {
@@ -17,6 +17,7 @@ module.exports = {
         'navy-light': 'hsl(202.7, 58.3%, 32%)',
         'gold':'hsl(38.3, 60%, 77.5%)',
         'gold-light': 'hsl(35.2, 64.4%, 91.2%)',
+        'gold-fade': 'hsl(35.2, 20%, 80%)',
         'white':'hsl(0, 0%, 94.9%)',
         'white-faded':'hsl(0, 0%, 80%)',
       },
@@ -38,6 +39,8 @@ module.exports = {
       '3xl': '1.25rem',
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+],
 }
 }
