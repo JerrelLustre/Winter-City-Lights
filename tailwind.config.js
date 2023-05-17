@@ -33,14 +33,16 @@ module.exports = {
         'blue':'0px 20px 30px -10px hsl(210.8, 33.9%, 22.5%);',
       },
       backgroundImage: {
-        'banner': "url('/public/img/pageBanner-winter-city-lights.jpg')",
+        'banner': "url('../img/pageBanner-winter-city-lights.jpg')",
     },
     borderRadius:{
       '3xl': '1.25rem',
     },
+    content: {
+      'star': 'url("../img/star.svg")',
+    },
   },
   plugins: [
-    require('flowbite/plugin')
 ],
 }
 }

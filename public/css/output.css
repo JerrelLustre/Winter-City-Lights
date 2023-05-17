@@ -603,6 +603,10 @@ video {
   bottom: 0px;
 }
 
+.bottom-16 {
+  bottom: 4rem;
+}
+
 .bottom-4 {
   bottom: 1rem;
 }
@@ -623,8 +627,20 @@ video {
   top: 0px;
 }
 
+.top-12 {
+  top: 3rem;
+}
+
+.top-4 {
+  top: 1rem;
+}
+
 .-z-10 {
   z-index: -10;
+}
+
+.z-40 {
+  z-index: 40;
 }
 
 .z-50 {
@@ -633,6 +649,11 @@ video {
 
 .col-span-12 {
   grid-column: span 12 / span 12;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .mx-4 {
@@ -655,12 +676,24 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
 .mb-14 {
   margin-bottom: 3.5rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .mb-3 {
   margin-bottom: 0.75rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
 }
 
 .mb-52 {
@@ -679,8 +712,28 @@ video {
   margin-top: 1rem;
 }
 
+.mt-60 {
+  margin-top: 15rem;
+}
+
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.mb-40 {
+  margin-bottom: 10rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
 }
 
 .box-border {
@@ -733,6 +786,10 @@ video {
 
 .w-3\/5 {
   width: 60%;
+}
+
+.w-4\/5 {
+  width: 80%;
 }
 
 .w-72 {
@@ -813,6 +870,14 @@ video {
   cursor: pointer;
 }
 
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-disc {
+  list-style-type: disc;
+}
+
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -821,8 +886,16 @@ video {
   flex-direction: column;
 }
 
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
 }
 
 .justify-center {
@@ -831,6 +904,10 @@ video {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-3 {
@@ -867,6 +944,14 @@ video {
 
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-bl-3xl {
+  border-bottom-left-radius: 1.25rem;
+}
+
+.rounded-tl-3xl {
+  border-top-left-radius: 1.25rem;
 }
 
 .border-4 {
@@ -920,7 +1005,7 @@ video {
 }
 
 .bg-banner {
-  background-image: url('/public/img/pageBanner-winter-city-lights.jpg');
+  background-image: url('../img/pageBanner-winter-city-lights.jpg');
 }
 
 .bg-\[length\:100\%_100\%\] {
@@ -949,14 +1034,33 @@ video {
      object-position: 0 30%;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-5 {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .py-5 {
@@ -972,6 +1076,11 @@ video {
 .py-\[0\.625rem\] {
   padding-top: 0.625rem;
   padding-bottom: 0.625rem;
+}
+
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .pb-12 {
@@ -1089,11 +1198,6 @@ video {
   color: hsl(202.9 68% 19.6% / var(--tw-text-opacity));
 }
 
-.text-navy-light {
-  --tw-text-opacity: 1;
-  color: hsl(202.7 58.3% 32% / var(--tw-text-opacity));
-}
-
 .text-white {
   --tw-text-opacity: 1;
   color: hsl(0 0% 94.9% / var(--tw-text-opacity));
@@ -1142,9 +1246,145 @@ video {
   transition-duration: 150ms;
 }
 
-.hover\:bg-gold:hover {
-  --tw-bg-opacity: 1;
-  background-color: hsl(38.3 60% 77.5% / var(--tw-bg-opacity));
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:top-0::before {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.before\:left-0::before {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.before\:right-0::before {
+  content: var(--tw-content);
+  right: 0px;
+}
+
+.before\:right-full::before {
+  content: var(--tw-content);
+  right: 100%;
+}
+
+.before\:bottom-full::before {
+  content: var(--tw-content);
+  bottom: 100%;
+}
+
+.before\:bottom-3\/4::before {
+  content: var(--tw-content);
+  bottom: 75%;
+}
+
+.before\:right-3\/4::before {
+  content: var(--tw-content);
+  right: 75%;
+}
+
+.before\:bottom-\[90\%\]::before {
+  content: var(--tw-content);
+  bottom: 90%;
+}
+
+.before\:bottom-\[10\%\]::before {
+  content: var(--tw-content);
+  bottom: 10%;
+}
+
+.before\:h-auto::before {
+  content: var(--tw-content);
+  height: auto;
+}
+
+.before\:w-4::before {
+  content: var(--tw-content);
+  width: 1rem;
+}
+
+.before\:scale-75::before {
+  content: var(--tw-content);
+  --tw-scale-x: .75;
+  --tw-scale-y: .75;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:scale-50::before {
+  content: var(--tw-content);
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.before\:content-star::before {
+  --tw-content: url("../img/star.svg");
+  content: var(--tw-content);
+}
+
+.after\:absolute::after {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:right-3\/4::after {
+  content: var(--tw-content);
+  right: 75%;
+}
+
+.after\:top-\[10\%\]::after {
+  content: var(--tw-content);
+  top: 10%;
+}
+
+.after\:left-3\/4::after {
+  content: var(--tw-content);
+  left: 75%;
+}
+
+.after\:left-\[80\%\]::after {
+  content: var(--tw-content);
+  left: 80%;
+}
+
+.after\:left-\[75\%\]::after {
+  content: var(--tw-content);
+  left: 75%;
+}
+
+.after\:left-\[70\%\]::after {
+  content: var(--tw-content);
+  left: 70%;
+}
+
+.after\:left-\[72\%\]::after {
+  content: var(--tw-content);
+  left: 72%;
+}
+
+.after\:left-\[79\%\]::after {
+  content: var(--tw-content);
+  left: 79%;
+}
+
+.after\:h-auto::after {
+  content: var(--tw-content);
+  height: auto;
+}
+
+.after\:scale-50::after {
+  content: var(--tw-content);
+  --tw-scale-x: .5;
+  --tw-scale-y: .5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.after\:content-star::after {
+  --tw-content: url("../img/star.svg");
+  content: var(--tw-content);
 }
 
 .hover\:text-gold-light:hover {
@@ -1152,16 +1392,16 @@ video {
   color: hsl(35.2 64.4% 91.2% / var(--tw-text-opacity));
 }
 
-.hover\:text-navy:hover {
-  --tw-text-opacity: 1;
-  color: hsl(202.9 68% 19.6% / var(--tw-text-opacity));
-}
-
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
 
 @media (min-width: 520px) {
+  .sm\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
   .sm\:max-w-\[28rem\] {
     max-width: 28rem;
   }
@@ -1172,8 +1412,20 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:static {
+    position: static;
+  }
+
   .md\:-bottom-14 {
     bottom: -3.5rem;
+  }
+
+  .md\:mb-16 {
+    margin-bottom: 4rem;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
   }
 
   .md\:max-w-\[21\.25rem\] {
@@ -1205,6 +1457,11 @@ video {
     position: static;
   }
 
+  .lg\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .lg\:mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
@@ -1215,25 +1472,20 @@ video {
     margin-right: auto;
   }
 
-  .lg\:mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  .lg\:mb-2 {
+    margin-bottom: 0.5rem;
   }
 
   .lg\:mt-0 {
     margin-top: 0px;
   }
 
-  .lg\:mr-28 {
-    margin-right: 7rem;
+  .lg\:mt-12 {
+    margin-top: 3rem;
   }
 
-  .lg\:mr-12 {
-    margin-right: 3rem;
-  }
-
-  .lg\:mb-2 {
-    margin-bottom: 0.5rem;
+  .lg\:mb-16 {
+    margin-bottom: 4rem;
   }
 
   .lg\:block {

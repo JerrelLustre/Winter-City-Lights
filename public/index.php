@@ -11,6 +11,7 @@ include get_path("public/partials/global/head.php");
 <body class="bg-gold-light w-screen ">
     <!-- Header -->
     <?php include get_path("public/partials/global/header.php"); ?>
+    <!-- End:Header -->
 
         <main class="overflow-x-hidden">
         <!-- Banner -->
@@ -25,7 +26,9 @@ include get_path("public/partials/global/head.php");
                     <a class="btn" href="#">Get Event Pass</a>
                 </div>
             </section>
-            
+        <!-- End:Banner -->
+        
+        <!-- Carousel -->
             <section class="carousel xl:h-[37.5rem] mb-52" data-flickity='{ "wrapAround": true, "draggable": false, "fade": true , "lazyLoad": true  }'>
                 <!-- All cells are set to max width. In mobile, elemented are formatted normally. At XL (1280px) The image is taken out of the flow with absolute, and its grand-parent is made relative while its direct parent is turned back into static. This allows us to position it to the right, while keeping the content on the left -->
                 
@@ -37,6 +40,9 @@ include get_path("public/partials/global/head.php");
                 <?php endforeach; ?>
                     <!-- endforeach ends the foreach() loop -->
             </section>
+        <!-- End:Carousel -->
+
+
             <!-- <section class="max-w-[80rem] mx-auto">
             <h2 class="px-5 xl:mx-10 py-[0.625rem] w-fit mx-auto border-gold bg-gold-light border-8 font-serif text-navy rounded-3xl text-3xl text-center shadow-blue ">Past Festival Moments</h2>
             <div class="mx-auto grid-cols-12 ">
