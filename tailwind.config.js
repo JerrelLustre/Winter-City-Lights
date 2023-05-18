@@ -14,7 +14,9 @@ module.exports = {
       },
       colors: {
         'navy': 'hsl(202.9, 68%, 19.6%)',
+        'navy-dark': 'hsl(202.9, 68%, 17%)',
         'navy-light': 'hsl(202.7, 58.3%, 32%)',
+        'auburn' : 'hsl(1, 66%, 39%)',
         'gold':'hsl(38.3, 60%, 77.5%)',
         'gold-light': 'hsl(35.2, 64.4%, 91.2%)',
         'gold-fade': 'hsl(35.2, 20%, 80%)',
