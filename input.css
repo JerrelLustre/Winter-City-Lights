@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 @layer base {
+
     .btn {
-      @apply border-gold font-extrabold font-sans text-2xl  bg-navy rounded-[0.625rem] shadow-simple px-[3.125rem] inline-block py-[1.5625rem] hover:bg-navy-light transition-colors;
+      @apply text-white text-center border-4 border-gold font-extrabold font-sans text-2xl  bg-navy rounded-[0.625rem] shadow-simple px-[3.125rem] inline-block py-[1.5625rem] hover:bg-navy-light transition-colors;
     }
   }
