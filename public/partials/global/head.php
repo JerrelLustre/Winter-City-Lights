@@ -9,6 +9,6 @@
     <link rel="stylesheet" href="<?php echo get_public_url('css/flickity.css') ?>">
     <link rel="stylesheet" href="<?php echo get_public_url('css/flickity-fade.css') ?>">
     <link rel="stylesheet" href="<?php echo get_public_url('css/output.css') ?>">
-
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_public_url('img/favicon.png')?>">
 </head>
 
