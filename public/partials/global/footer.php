@@ -1,4 +1,4 @@
-<footer class="bg-auburn py-5 relative z-40">
+<footer class="bg-auburn py-5 relative z-40 w-screen overflow-x-clip">
     <div class="mx-4 lg:mx-auto max-w-[110rem] flex relative flex-col lg:flex-row lg:justify-between pb-12">
         <div class="flex flex-col gap-8 max-w-sm">
             <img class="w-28 h-auto" src="<?php echo get_public_url('img/logo-wintercitylights.svg') ?>" alt="Winter City Lights Event Logo">

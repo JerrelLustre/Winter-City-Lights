@@ -1,7 +1,7 @@
-<header class="bg-auburn z-50 sticky top-0">
+<header class="bg-auburn z-50 sticky top-0 w-screen overflow-x-clip">
     <div class="max-w-[68rem] mx-auto  flex justify-around items-center py-2">
         <div class="w-full lg:w-fit flex justify-between items-center mx-8 lg:mx-0">
-            <a class="" href="#">
+            <a class="" href="<?php echo get_public_url('index.php') ?>">
                 <img class="w-32 h-auto" src="<?php echo get_public_url('/img/logo-wintercitylights.svg') ?>" alt="Winter City Lights Logo">
             </a>
             <div class=" h-full  flex items-center justify-center  lg:hidden z-50">
@@ -37,20 +37,9 @@
         </nav>
     </div>
 </header>
-<script>
-    let open = document.querySelector("#open")
-    let close = document.querySelector("#close")
-    let menu = document.querySelector("#menu")
-    
-    open.addEventListener('click', () => {
-        menu.classList.remove("-translate-y-[200%]");
-        close.classList.remove("hidden");
-        open.classList.add("hidden");
-});
-close.addEventListener('click', () => {
-    menu.classList.add("-translate-y-[200%]");
-    close.classList.add("hidden");
-    open.classList.remove("hidden");
-});
-</script>
+<!-- Disclaimer -->
+<div class="bg-white w-screen overflow-x-hidden ">
+<p class="text-base text-center">Disclaimer: This site was made as a proof of concept for a fictional Winter festival for a student project. Winter City Lights is not a real event and any reference to any real events is purely coincidental</p>
+</div>
+
 

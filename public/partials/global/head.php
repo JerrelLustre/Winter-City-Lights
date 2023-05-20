@@ -9,14 +9,6 @@
     <link rel="stylesheet" href="<?php echo get_public_url('css/flickity.css') ?>">
     <link rel="stylesheet" href="<?php echo get_public_url('css/flickity-fade.css') ?>">
     <link rel="stylesheet" href="<?php echo get_public_url('css/output.css') ?>">
-    
-    <style>
-        *{
-            outline:1px solid red;
-            
-        }
 
-
-    </style>
 </head>
 

@@ -1,6 +1,6 @@
-<div class="carousel-cell w-screen ">
+<div class="carousel-cell  w-screen">
     <div class="lg:relative mx-auto max-w-[98.75rem] lg:max-h-full lg:h-[37.5rem] ">
-        <h2 class="px-5 lg:mx-10 py-[0.625rem] w-fit mx-auto border-gold bg-gold-light border-4  font-serif text-navy rounded-3xl text-3xl text-center shadow-blue ">
+        <h2 class="px-5 lg:mx-10  max-w-lg  lg:text-left py-[0.625rem] w-fit mx-auto border-gold bg-gold-light border-4  font-serif font-bold text-navy rounded-3xl text-3xl text-center shadow-blue ">
             <?php echo h($cellInfo->heading); ?>
         </h2>
         <div class="lg:static relative flex justify-center my-6">
