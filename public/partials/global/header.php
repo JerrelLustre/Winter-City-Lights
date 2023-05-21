@@ -38,7 +38,7 @@
     </div>
 </header>
 <!-- Disclaimer -->
-<div class="bg-white w-screen overflow-x-hidden ">
+<div class="bg-white w-screen overflow-x-hidden flex-shrink-0">
 <p class="text-base text-center">Disclaimer: This site was made as a proof of concept for a fictional Winter festival for a student project. Winter City Lights is not a real event and any reference to any real events is purely coincidental</p>
 </div>
 
