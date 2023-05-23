@@ -34,7 +34,7 @@ include get_path("public/partials/global/head.php");
     <!-- Footer -->
     <?php include get_path("public/partials/global/footer.php"); ?>
     <!-- End:Footer -->
-    <!-- Scripts moves flickity containers around and initializes lazyload -->
-    <script src="./js/script.js"></script>
+    <!-- Mobile nav controls -->
+    <script src="./js/menu.js"></script>
 </body>
 </html>

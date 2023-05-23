@@ -102,5 +102,7 @@ include get_path("public/partials/global/head.php");
     <script src="./js/lazyload.min.js"></script>
     <!-- Scripts moves flickity containers around and initializes lazyload -->
     <script src="./js/script.js"></script>
+    <!-- Mobile nav controls -->
+    <script src="./js/menu.js"></script>
 </body>
 </html>
