@@ -2,17 +2,17 @@
 /*                            Mobile Menu Controls                            */
 /* -------------------------------------------------------------------------- */
 
-let open = document.querySelector("#open")
-let close = document.querySelector("#close")
-let menu = document.querySelector("#menu")
+let openMenu = document.querySelector("#open")
+let closeMenu = document.querySelector("#close")
+let menuNav = document.querySelector("#menu")
 
-open.addEventListener('click', () => {
-    menu.classList.remove("-translate-y-[200%]");
-    close.classList.remove("hidden");
-    open.classList.add("hidden");
+openMenu.addEventListener('click', () => {
+    menuNav.classList.remove("-translate-y-[200%]");
+    closeMenu.classList.remove("hidden");
+    openMenu.classList.add("hidden");
 });
-close.addEventListener('click', () => {
-menu.classList.add("-translate-y-[200%]");
-close.classList.add("hidden");
-open.classList.remove("hidden");
+closeMenu.addEventListener('click', () => {
+menuNav.classList.add("-translate-y-[200%]");
+closeMenu.classList.add("hidden");
+openMenu.classList.remove("hidden");
 });

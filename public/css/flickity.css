@@ -124,19 +124,19 @@ https://flickity.metafizzy.co
   }
 
   .flickity-page-dots .dot:nth-child(1){
-    background-image: url(../img/snowglobe-carousel-icon.jpg);
+    background-image: url(../img/snowglobe-carousel-icon.webp);
   }
 
   .flickity-page-dots .dot:nth-child(2){
-    background-image: url(../img/merchandise-carousel-icon.jpg);
+    background-image: url(../img/merchandise-carousel-icon.webp);
   }
 
   .flickity-page-dots .dot:nth-child(3){
-    background-image: url(../img/multicultural-carousel-icon.jpg);
+    background-image: url(../img/multicultural-carousel-icon.webp);
   }
 
   .flickity-page-dots .dot:nth-child(4){
-    background-image: url(../img/events-carousel-icon.jpg);
+    background-image: url(../img/events-carousel-icon.webp);
   }
   
   

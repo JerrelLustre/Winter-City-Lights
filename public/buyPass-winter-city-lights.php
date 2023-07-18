@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" style="font-size:12px;" class="overflow-x-clip w-screen h-full">
+<html lang="en" style="font-size:14px;" class="overflow-x-clip w-screen h-full">
 
 <?php
 require_once "../app/init.php";
@@ -96,9 +96,9 @@ include get_path("public/partials/global/head.php");
 
        <!-- Checkout button -->
        <div class="md:static md:mt-12 fixed bottom-0 flex justify-end w-full" >
-            <div class="bg-gold-light border-navy rounded-bl-3xl rounded-tl-3xl shadow-blue sm:w-fit flex items-center justify-center w-screen py-4 pr-4 border-4">
+            <div class="bg-gold-light border-navy rounded-bl-3xl rounded-tl-3xl shadow-blue sm:w-fit flex items-center justify-center w-screen py-4 pr-8 border-4">
                     <a class="btn mx-8" href="./checkout-winter-city-lights.php">Checkout Items</a>
-                    <img class="w-28 h-auto" src="./img/cart.svg" alt="Items in cart amount">
+                    <img class="w-28 h-auto mr-4" src="./img/svg/cart.svg" alt="Items in cart amount">
             </div>
         </div>
         <!-- End:Checkout button -->

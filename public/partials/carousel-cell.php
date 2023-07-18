@@ -8,7 +8,7 @@
                 class="absolute inset-y-[10%] lg:bottom-0 w-screen bg-banner bg-cover bg-center bg-no-repeat border-4 box-border border-navy -z-10 ">
             </div>
             <img class="carousel-cell-image relative lg:absolute lg:bottom-0 lg:right-10 shadow-simple mx-auto w-80 h-80 lg:h-full lg:w-auto rounded-full border-white border-[16px] -z-10"
-            data-flickity-lazyload="img/<?php echo h($cellInfo->image); ?>" src="img/lazyload/<?php echo h($cellInfo->imagePlaceholder); ?>" alt="<?php echo h($cellInfo->imageAlt); ?>">
+            src="img/<?php echo h($cellInfo->image); ?>" alt="<?php echo h($cellInfo->imageAlt); ?>">
         </div>
 
         <div class="bg-navy w-fit text-gold-light rounded-3xl lg:mx-10 py-5 mx-auto">

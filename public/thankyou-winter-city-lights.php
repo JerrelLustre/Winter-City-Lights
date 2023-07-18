@@ -15,7 +15,7 @@ include get_path("public/partials/global/head.php");
     <main class="flex-1 overflow-x-hidden">
 
     <!-- Banner -->
-    <div class="bg-[url('../img/thankyou-banner-winter-city-lights.jpg')]  text-gold bg-url py-6 border-4 border-navy mb-12 text-center">
+    <div class="bg-[url('../img/thankyou-banner-winter-city-lights.webp')]  text-gold bg-url py-6 border-4 border-navy mb-12 text-center">
         <h1 class="w-4/5 mx-auto font-serif text-4xl font-bold capitalize">Thank you for your purchase</h1>
         <p class="w-4/5 mx-auto font-sans text-4xl">We hope to see you soon</p>
     </div>

@@ -1,7 +1,7 @@
-<footer class="bg-auburn py-5 relative z-40 w-screen overflow-x-clip">
+<footer class="bg-auburn py-5 relative z-40 w-screen overflow-x-clip px-8">
     <div class="mx-4 lg:mx-auto max-w-[110rem] flex relative flex-col lg:flex-row lg:justify-between pb-12">
         <div class="flex flex-col gap-8 max-w-sm">
-            <img class="w-28 h-auto" src="<?php echo get_public_url('img/logo-wintercitylights.svg') ?>" alt="Winter City Lights Event Logo">
+            <img class="w-28 h-auto" src="<?php echo get_public_url('img/svg/logo-wintercitylights.svg') ?>" alt="Winter City Lights Event Logo">
             <p class="font-sans text-white text-base">The festival where cultures come together in a winter wonderland</p>
             <a class="btn" href="#">Get Event Passes</a>
         </div>
@@ -11,9 +11,9 @@
                     <h3 class="font-sans text-white text-base font-bold lg:mb-2">Follow us</h3>
                     <ul class="flex gap-6 ">
                         <!-- Facebook -->
-                        <li><a href="#" title="See our Facebook page"><img class="w-8 h-8" src="<?php echo get_public_url('img/facebook.svg') ?>" alt="Facebook"></a></li>
+                        <li><a href="#" title="See our Facebook page"><img class="w-8 h-8" src="<?php echo get_public_url('img/svg/facebook.svg') ?>" alt="Facebook"></a></li>
                         <!-- Insta -->
-                        <li><a href="#" title="See our Instagram page"><img class="w-8 h-8" src="<?php echo get_public_url('img/instagram.svg') ?>" alt="Instagram"></a></li>
+                        <li><a href="#" title="See our Instagram page"><img class="w-8 h-8" src="<?php echo get_public_url('img/svg/instagram.svg') ?>" alt="Instagram"></a></li>
                     </ul>
                 </div>
                 <div class="flex mt-4 lg:block gap-6">
@@ -52,6 +52,6 @@
                 </ul>
             </div>
             <p class="absolute bottom-0 left-0 text-white opacity-50">&copy; 2023 Jerrel Lustre</p>
-        <div>
+        </div>
     </div>
 </footer>

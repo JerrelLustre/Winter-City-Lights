@@ -18,7 +18,7 @@ include get_path("public/partials/global/head.php");
 
        <!-- Back button -->
        <div class="md:static flex" >
-            <a class="bg-gold-light border-navy rounded-br-3xl rounded-tr-3xl sm:w-fit flex items-center justify-center w-full h-full py-4 pl-10 pr-6 border-4 border-l-0" href="<?php echo get_public_url('/buyPass-winter-city-lights.php') ?>" title="Go back to event pass selection"> <img class="w-14 h-auto" src="<?php echo get_public_url('/img/arrow.svg') ?>" alt=""></a>
+            <a class="bg-gold-light border-navy rounded-br-3xl rounded-tr-3xl sm:w-fit flex items-center justify-center w-full h-full py-4 pl-10 pr-6 border-4 border-l-0" href="<?php echo get_public_url('/buyPass-winter-city-lights.php') ?>" title="Go back to event pass selection"> <img class="w-14 h-auto" src="<?php echo get_public_url('/img/svg/arrow.svg') ?>" alt=""></a>
         </div>
         <!-- End:back button -->
 
@@ -45,12 +45,12 @@ include get_path("public/partials/global/head.php");
                         <p><span class="text-gold">Group Pass: </span> $16.99 CAD</p>
                         <div class="flex items-center justify-end h-16 gap-12">
                             <p>QTY:</p>
-                            <img src="<?php echo get_public_url('/img/minus.svg') ?>" class="text-8xl text-md" alt="-"></img>
+                            <img src="<?php echo get_public_url('/img/svg/minus.svg') ?>" class="text-8xl text-md" alt="-"></img>
                             <div class="relative flex items-center justify-center">
                                 <div class="bg-gold absolute block w-12 h-12 rounded-full"></div>
                                 <p class="bottom-[0.4rem] text-navy flex justify-center items-center z-20 relative rounded-full font-normal  font-serif  text-4xl">1</p>
                             </div>
-                            <img src="<?php echo get_public_url('/img/add.svg') ?>" class="text-8xl text-md" alt="+"></img>
+                            <img src="<?php echo get_public_url('/img/svg/add.svg') ?>" class="text-8xl text-md" alt="+"></img>
                         </div>
                     </li>
                     <!-- End: order 1 -->
@@ -62,12 +62,12 @@ include get_path("public/partials/global/head.php");
                         <p><span class="text-gold">Group Pass: </span> $16.99 CAD</p>
                         <div class="flex items-center justify-end h-16 gap-12">
                             <p>QTY:</p>
-                            <img src="<?php echo get_public_url('/img/minus.svg') ?>" class="text-8xl text-md" alt="-"></img>
+                            <img src="<?php echo get_public_url('/img/svg/minus.svg') ?>" class="text-8xl text-md" alt="-"></img>
                             <div class="relative flex items-center justify-center">
                                 <div class="bg-gold absolute block w-12 h-12 rounded-full"></div>
                                 <p class="bottom-[0.4rem] text-navy flex justify-center items-center z-20 relative rounded-full font-normal  font-serif  text-4xl">1</p>
                             </div>
-                            <img src="<?php echo get_public_url('/img/add.svg') ?>" class="text-8xl text-md" alt="+"></img>
+                            <img src="<?php echo get_public_url('/img/svg/add.svg') ?>" class="text-8xl text-md" alt="+"></img>
                         </div>
                     </li>
                     <!-- End: order 2 -->
@@ -96,8 +96,8 @@ include get_path("public/partials/global/head.php");
             <!-- Card 2 -->
             <div class="bg-navy rounded-3xl shadow-blue w-full max-w-md p-4 py-12 mx-2 font-sans text-base text-white">
                 <div class=" rounded-3xl bg-gold flex justify-center gap-4 mx-8 mb-4">
-                    <img class="w-24 h-auto py-2" src="./img/mastercard.svg" alt="We accept Mastercard">
-                    <img class="w-24 h-auto py-2" src="./img/visa.svg" alt="We accept Visa">
+                    <img class="w-24 h-auto py-2" src="./img/svg/mastercard.svg" alt="We accept Mastercard">
+                    <img class="w-24 h-auto py-2" src="./img/svg/visa.svg" alt="We accept Visa">
                 </div>
                 <form id="card" action="#">
                     <label class="text-gold text-xl" for="name">Name on Card</label>
