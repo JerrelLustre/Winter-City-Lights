@@ -39,35 +39,34 @@ include get_path("public/partials/global/head.php");
             <!-- Card 1 -->
             <div class="bg-navy rounded-3xl shadow-blue w-full max-w-md p-4 py-12 mx-2 text-2xl text-white">
                 <!-- Orders Container -->
-                <ul class="flex flex-col gap-5 py-4">
+                <ul class="flex flex-col gap-5 py-4 ">
                     <!-- Order 1 -->
-                    <li class="">
+                    <li class="after:w-full after:bg-navy-dark after:h-2 after:block">
                         <p><span class="text-gold">Group Pass: </span> $16.99 CAD</p>
                         <div class="flex items-center justify-end h-16 gap-12">
                             <p>QTY:</p>
-                            <img src="<?php echo get_public_url('/img/svg/minus.svg') ?>" class="text-8xl text-md" alt="-"></img>
+                            <img src="<?php echo get_public_url('/img/svg/minus.svg') ?>" class="text-8xl text-md cursor-pointer" alt="-">
                             <div class="relative flex items-center justify-center">
                                 <div class="bg-gold absolute block w-12 h-12 rounded-full"></div>
                                 <p class="bottom-[0.4rem] text-navy flex justify-center items-center z-20 relative rounded-full font-normal  font-serif  text-4xl">1</p>
                             </div>
-                            <img src="<?php echo get_public_url('/img/svg/add.svg') ?>" class="text-8xl text-md" alt="+"></img>
+                            <img src="<?php echo get_public_url('/img/svg/add.svg') ?>" class="text-8xl text-md cursor-pointer" alt="+">
                         </div>
                     </li>
                     <!-- End: order 1 -->
                     
-                    <div class="full bg-navy-dark h-2"></div>
 
                     <!-- Order 2 -->
                     <li class="">
                         <p><span class="text-gold">Group Pass: </span> $16.99 CAD</p>
                         <div class="flex items-center justify-end h-16 gap-12">
                             <p>QTY:</p>
-                            <img src="<?php echo get_public_url('/img/svg/minus.svg') ?>" class="text-8xl text-md" alt="-"></img>
+                            <img src="<?php echo get_public_url('/img/svg/minus.svg') ?>" class="text-8xl text-md cursor-pointer" alt="-">
                             <div class="relative flex items-center justify-center">
                                 <div class="bg-gold absolute block w-12 h-12 rounded-full"></div>
                                 <p class="bottom-[0.4rem] text-navy flex justify-center items-center z-20 relative rounded-full font-normal  font-serif  text-4xl">1</p>
                             </div>
-                            <img src="<?php echo get_public_url('/img/svg/add.svg') ?>" class="text-8xl text-md" alt="+"></img>
+                            <img src="<?php echo get_public_url('/img/svg/add.svg') ?>" class="text-8xl text-md cursor-pointer" alt="+">
                         </div>
                     </li>
                     <!-- End: order 2 -->
@@ -100,18 +99,18 @@ include get_path("public/partials/global/head.php");
                     <img class="w-24 h-auto py-2" src="./img/svg/visa.svg" alt="We accept Visa">
                 </div>
                 <form id="card" action="#">
-                    <label class="text-gold text-xl" for="name">Name on Card</label>
-                    <input name="name" class="text-navy rounded-3xl shadow-blue w-full py-8 pl-4 mt-1 mb-12 text-2xl" type="text" placeholder="Name on Card">
-                    <label class="text-gold text-xl" for="name">Card Number</label>
-                    <input name="name" class="text-navy rounded-3xl shadow-blue w-full py-8 pl-4 mt-1 mb-12 text-2xl" type="text" placeholder="0000 0000 0000">
+                    <label class="text-gold text-xl" for="cardName">Name on Card</label>
+                    <input id="cardName" name="cardName" class="text-navy rounded-3xl shadow-blue w-full py-8 pl-4 mt-1 mb-12 text-2xl" type="text" placeholder="Name on Card">
+                    <label class="text-gold text-xl" for="cardNum">Card Number</label>
+                    <input id="cardNum" name="cardNum" class="text-navy rounded-3xl shadow-blue w-full py-8 pl-4 mt-1 mb-12 text-2xl" type="text" placeholder="0000 0000 0000">
                     <div class=" flex">
                         <div class="mr-20">
-                            <label class="text-gold block text-xl" for="name">Card Expiration</label>
-                            <input name="name" class="text-navy rounded-3xl shadow-simple w-20 py-4 pl-4 mt-1 text-2xl" type="text" placeholder="0/00">
+                            <label class="text-gold block text-xl" for="cardExpire">Card Expiration</label>
+                            <input id="cardExpire" name="cardExpire" class="text-navy rounded-3xl shadow-simple w-20 py-4 pl-4 mt-1 text-2xl" type="text" placeholder="0/00">
                         </div>
                         <div>
-                            <label class="text-gold block text-xl" for="name">CVC</label>
-                            <input name="name" class="box-shadow-simple text-navy rounded-3xl shadow-simple w-20 py-4 pl-4 mt-1 text-2xl" type="text" placeholder="000">
+                            <label class="text-gold block text-xl" for="CVC">CVC</label>
+                            <input id="CVC" name="CVC" class="box-shadow-simple text-navy rounded-3xl shadow-simple w-20 py-4 pl-4 mt-1 text-2xl" type="text" placeholder="000">
                         </div>
                     </div>
                 </form>
@@ -131,10 +130,11 @@ include get_path("public/partials/global/head.php");
         <!-- End:Checkout button -->
 
     </main>
-</body>
+
     <!-- Footer -->
     <?php include get_path("public/partials/global/footer.php"); ?>
     <!-- End:Footer -->
-    <!-- Mobile nav controls -->
-    <script src="./js/menu.js"></script>
+        <!-- Mobile nav controls -->
+        <script src="./js/menu.js"></script>
+    </body>
 </html>

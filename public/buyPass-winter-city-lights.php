@@ -104,10 +104,10 @@ include get_path("public/partials/global/head.php");
         <!-- End:Checkout button -->
 
     </main>
-</body>
     <!-- Footer -->
     <?php include get_path("public/partials/global/footer.php"); ?>
     <!-- End:Footer -->
+    </body>
     <!-- Mobile nav controls -->
     <script src="./js/menu.js"></script>
 </html>

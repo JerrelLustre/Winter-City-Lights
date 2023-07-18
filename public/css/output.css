@@ -1523,9 +1523,24 @@ video {
   top: 10%;
 }
 
+.after\:block::after {
+  content: var(--tw-content);
+  display: block;
+}
+
 .after\:h-auto::after {
   content: var(--tw-content);
   height: auto;
+}
+
+.after\:h-2::after {
+  content: var(--tw-content);
+  height: 0.5rem;
+}
+
+.after\:w-full::after {
+  content: var(--tw-content);
+  width: 100%;
 }
 
 .after\:scale-50::after {
@@ -1535,9 +1550,19 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.after\:bg-navy-dark::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: hsl(202.9 68% 17% / var(--tw-bg-opacity));
+}
+
 .after\:content-star::after {
   --tw-content: url("../img/svg/star.svg");
   content: var(--tw-content);
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
 }
 
 .hover\:text-gold-light:hover {
